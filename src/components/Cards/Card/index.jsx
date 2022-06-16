@@ -7,7 +7,7 @@ const Card = ({item, onAddToCart}) => {
 	return (
 		<Wrapper onClick={() => auth.user ? onAddToCart() : null }>
 			<Image>
-				<img src={`https://market-place-yogi.herokuapp.com/images/products/${item.image_url}`} alt="Gambar" width="100%" />
+				<img src={`https://pos-system-yogi.herokuapp.com/images/products/${item.image_url}`} alt="Gambar" width="100%" />
 			</Image>
 			<Title>{item.name}</Title>
 			<PriceTag>${(Math.round(item.price * 100) / 100).toFixed(2)}</PriceTag>
