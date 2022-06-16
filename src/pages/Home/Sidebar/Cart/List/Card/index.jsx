@@ -19,7 +19,7 @@ const Card = ({item}) => {
 		<Wrapper>
 			<Container>				
 				<Image>
-					<img src={`https://yogi-pos-system.netlify.app/images/products/${item.image_url}`} alt="Gambar" width="100%" />
+					<img src={`https://market-place-yogi.herokuapp.com/images/products/${item.image_url}`} alt="Gambar" width="100%" />
 				</Image>
 				<Title>{ item.name }</Title>
 			</Container>
