@@ -6,13 +6,13 @@ import { get, post } from './request-manager'
 // }
 
 export const getAddress = async () => {
-  return await get(`https://pos-system-yogi.herokuapp.com/api/shipping-address`)
+  return await get(`https://market-place-yogi.herokuapp.com/api/shipping-address`)
 }
 
 export const getLocation = async (location, code) => {
-  return await get(`https://pos-system-yogi.herokuapp.com/api/${location}?kode_induk=${code}`);
+  return await get(`https://market-place-yogi.herokuapp.com/api/${location}?kode_induk=${code}`);
 }
 
 export const createAddress = async data => {
-  return await post(`https://pos-system-yogi.herokuapp.com/api/shipping-address`, data)
+  return await post(`https://market-place-yogi.herokuapp.com/api/shipping-address`, data)
 }
