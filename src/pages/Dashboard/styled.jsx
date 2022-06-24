@@ -9,5 +9,8 @@ export const Wrapper = styled.section`
 export const Content = styled.div`
 	width: 80%;
 	height: 100%;
-	background-color: #eee
+	background-color: #eee;
+	text-align: center;
+	padding-top: 300px;
+	font-family: sans-serif
 `
