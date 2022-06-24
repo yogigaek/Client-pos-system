@@ -1,5 +1,4 @@
 import { get, post } from "./request-manager"
-// import { config } from "../../config"
 
 export const createOrder = async payload => {
   return await post(`https://market-place-yogi.herokuapp.com/api/order`, payload)

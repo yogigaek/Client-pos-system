@@ -1,5 +1,4 @@
 import { get } from "./request-manager"
-// import { config } from "../../config"
 
 export const getProduct = async (params) => {
   return await get(`https://market-place-yogi.herokuapp.com/api/product`, { params })

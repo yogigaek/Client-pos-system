@@ -25,8 +25,8 @@ const App = () => {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route
-          path="/auth/signin" 
-          element={ auth.user ? <Navigate to="/" replace /> : <Login />  }
+          path="/auth/signin"
+          element={auth.user ? <Navigate to="/" replace /> : <Login />}
         />
         <Route path="/auth/signup" element={<Register />} />
         <Route path="/auth/logout" element={<Logout />} />
@@ -39,7 +39,7 @@ const App = () => {
       </Routes>
     </Router>
   )
-}; 
+};
 
 
 export default App
