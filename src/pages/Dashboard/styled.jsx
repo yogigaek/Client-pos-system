@@ -12,5 +12,5 @@ export const Content = styled.div`
 	background-color: #eee;
 	text-align: center;
 	padding-top: 300px;
-	font-family: sans-serif
+	font-family: sans-serif;
 `

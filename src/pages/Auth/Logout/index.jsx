@@ -9,14 +9,12 @@ const Logout = () => {
   const navigate = useNavigate();
   useEffect(() => {
     logoutUser()
-    .then(_ => dispatch(userLogout()))
-    .then(_ => navigate('/'));
+      .then(_ => dispatch(userLogout()))
+      .then(_ => navigate('/'));
   }, [dispatch, navigate])
   return (
     <div>
-      <div>
-        <p>Loging out...</p>
-      </div>
+      <p style={{ color: 'var(--color-white)' }}>Logging out...</p>
     </div>
   )
 }

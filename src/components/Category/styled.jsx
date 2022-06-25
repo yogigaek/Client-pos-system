@@ -19,7 +19,7 @@ export const Button = styled.button`
 	transition: .5s all ease-in-out;
 	text-transform: capitalize;
 	&:hover {
-		background-color: ${props => props.bg ? '#e86e0b' : '#f4f5f6' };
+		background-color: ${props => props.bg ? 'var(--color-bg-variant)' : '#f4f5f6' };
 	}
 `
 export const ButtonPlaceholder = styled.button`
